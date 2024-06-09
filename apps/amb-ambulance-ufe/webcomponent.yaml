@@ -11,6 +11,11 @@ spec:
   navigation:
     - element: amb-ambulance-wl-app    # element, ktorý bude vložený na stránku amb-medical-app or amb-ambulance-wl-app
                                     # pri navigácii na zoznam čakajúcich
+      attributes:
+      - name: api-base
+        value: http://localhost:5005/api
+      - name: ambulance-id
+        value: bobulova
       path: amb-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny amb-ambulance-wl  or medical
       title: Zoznam čakajúcich amb      # názov mikro aplikácie
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
