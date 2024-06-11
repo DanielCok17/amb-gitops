@@ -8,8 +8,7 @@ commonLabels:
  app.kubernetes.io/name: amb-ambulance-wl
 
 resources:
- - ../../../apps/amb-ambulance-ufe
-
+  - ../../../apps/amb-ambulance-ufe
 
 components:
- - ../../../components/version-release
+  - ../../../components/version-release
