@@ -8,6 +8,10 @@ commonLabels:
 
 resources:
 - ../../../apps/amb-ambulance-ufe
+- ../../../apps/amb-ambulance-webapi
 
 components:
 - ../../../components/version-developers
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
