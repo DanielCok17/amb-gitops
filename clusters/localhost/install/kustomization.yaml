@@ -12,6 +12,7 @@ resources:
 
 components:
 - ../../../components/version-developers
+- https://github.com/DanielCok17/amb-webapi//deployments/kustomize/components/mongodb
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
